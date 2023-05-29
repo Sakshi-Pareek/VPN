@@ -130,6 +130,9 @@
 .h_100 {
     height: 100px;
 }
+.h_35{
+    height: 35%;
+}
 
 ol,
 ul {
@@ -235,6 +238,15 @@ ul {
 .gap-36 {
     gap: 36px;
 }
+.circle {
+    border-radius: 50px;
+    background: #FFECEC;
+    width: 55px;
+    height: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
 /* ---------------slider--------- */
 #wrap {
@@ -317,15 +329,6 @@ ul {
     transform: none !important;
 }
 
-.circle {
-    border-radius: 50px;
-    background: #FFECEC;
-    width: 55px;
-    height: 55px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
 
 .pre_btn {
     width: 60px;
